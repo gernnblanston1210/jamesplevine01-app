@@ -47,27 +47,6 @@ with st.container():
             st.header("Thank You for going on to this website")
             st.write("##")
             st.write("i appreciate you taking the time to read my website please give me more ideas to of websites to make please enjoy a picture me with my chinchilla when i was younger")
-# ---- CONTACT ----
-with st.container():
-    st.write("---")
-    st.header("if you have any questions or ideas please contact me with this contact form over here")
-    st.write("##")
-
-# ---- CONTACT FORM CODE ----
-contact_form = """
-<form action="https://formsubmit.co/james.p.levine@gmail.com" method="POST">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="text" name="name" placeholder="Your name" required>
-    <textarea name="message" placeholder="Your message here"required></textarea>
-    <input type="email" name="email" placeholder="Your email" required>
-    <button type="submit">Send</button>
-</form>
-"""
-left_column, right_column = st.columns(2)
-with left_column:
-    st.markdown(contact_form,unsafe_allow_html=True)
-with right_column:
-    st.empty()
 
 
 
