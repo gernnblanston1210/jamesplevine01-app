@@ -46,7 +46,7 @@ with st.container():
         with st.container():
             st.header("Thank You for going on to this website")
             st.write("##")
-            st.write("i appreciate you taking the time to read my website please give me more ideas to of websites to make please enjoy a picture me with my chinchilla when i was younger")
+            st.write("i appreciate you taking the time to read my website please give me more ideas of websites to make please enjoy a picture me with my chinchilla when i was younger")
 
 
 
