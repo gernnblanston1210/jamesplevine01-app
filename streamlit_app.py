@@ -19,8 +19,8 @@ img_contact_form = Image.open("images/james_and_fluffy.png")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi, I am Zurt! :wave: ")
-    st.title (" Of course Zurt is not my real name; I have just chose to be anonymous for this website")
+    st.subheader("Hi, I am Gern! :wave: ")
+    st.title (" Of course Gern is not my real name; I have just chose to be anonymous for this website")
     st.write ("I am very good with computers and other tech, and  i am also very good at coding.")
     st.write("Please continue looking through this website if you are interested!")
 
