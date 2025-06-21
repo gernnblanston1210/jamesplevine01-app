@@ -3,7 +3,7 @@
 from PIL import Image
 import requests
 import streamlit as st
-import html from Html
+
 # ---- WEB SERVER ----
 st.set_page_config(page_title="my webpage",page_icon=":green_heart:", layout="wide")
 
