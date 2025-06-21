@@ -48,7 +48,27 @@ with st.container():
             st.write("##")
             st.write("i appreciate you taking the time to read my website please give me more ideas of websites to make please enjoy a picture me with my chinchilla when i was younger")
 
+#---- contact from ----
 
+<form action="https://api.web3forms.com/submit" method="POST">
+
+    <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="2c4432c8-0d95-4ab4-8d29-39914939bae4">
+
+    <!-- Form Inputs. Each input must have a name="" attribute -->
+    <input type="text" name="name" required>
+    <input type="email" name="email" required>
+    <textarea name="message" required></textarea>
+
+    <!-- Honeypot Spam Protection -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+    <!-- Custom Confirmation / Success Page -->
+    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+    <button type="submit">Submit Form</button>
+
+</form>
 
         
 
