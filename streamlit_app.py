@@ -49,7 +49,8 @@ with st.container():
             st.write("i appreciate you taking the time to read my website please give me more ideas of websites to make please enjoy a picture me with my chinchilla when i was younger")
 
 #---- contact from ----
-
+    st.html("""
+    
 <form action="https://api.web3forms.com/submit" method="POST">
 
     <!-- Replace with your Access Key -->
@@ -69,7 +70,8 @@ with st.container():
     <button type="submit">Submit Form</button>
 
 </form>
-
+   """)
+    
         
 
 
