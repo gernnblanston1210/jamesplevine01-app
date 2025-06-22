@@ -64,7 +64,7 @@ with st.container():
     <input type="text" name="name" placeholder="Your name" required>
     <input type="email" name="email" placeholder="Your email" required>
     <textarea name="message" placeholder="your message here" required></textarea>
-    <textarea name="message" required></textarea>
+    
 
     <!-- Honeypot Spam Protection -->
     <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
