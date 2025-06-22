@@ -49,6 +49,9 @@ with st.container():
             st.write("i appreciate you taking the time to read my website please give me more ideas of websites to make please enjoy a picture me with my chinchilla when i was younger")
 
 #---- contact from ----
+
+    st.write("---")
+    
     st.html("""
     
 <form action="https://api.web3forms.com/submit" method="POST">
