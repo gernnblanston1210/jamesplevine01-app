@@ -57,8 +57,9 @@ with st.container():
     <input type="hidden" name="access_key" value="2c4432c8-0d95-4ab4-8d29-39914939bae4">
 
     <!-- Form Inputs. Each input must have a name="" attribute -->
-    <input type="text" name="name" required>
-    <input type="email" name="email" required>
+    <input type="text" name="name" placeholder="Your name" required>
+    <input type="email" name="email" placeholder="Your email required>
+    <textarea name="message" placeholder="your message here" required></textarea>
     <textarea name="message" required></textarea>
 
     <!-- Honeypot Spam Protection -->
@@ -71,7 +72,6 @@ with st.container():
 
 </form>
    """)
-    
         
 
 
