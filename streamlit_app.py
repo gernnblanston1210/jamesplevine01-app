@@ -62,7 +62,7 @@ with st.container():
 
     <!-- Form Inputs. Each input must have a name="" attribute -->
     <input type="text" name="name" placeholder="Your name" required>
-    <input type="email" name="email" placeholder="Your email required>
+    <input type="email" name="email" placeholder="Your email" required>
     <textarea name="message" placeholder="your message here" required></textarea>
     <textarea name="message" required></textarea>
 
